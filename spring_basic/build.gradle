@@ -43,7 +43,9 @@ dependencies {
     implementation 'org.apache.logging.log4j:log4j-api:2.23.1'
     implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.23.1'
 
-    implementation group: 'org.postgresql', name: 'postgresql', version: '42.7.3'
+    implementation group: 'jstl', name: 'jstl', version: '1.2'
+
+    implementation 'com.mysql:mysql-connector-j:8.3.0'
     implementation group: 'com.zaxxer', name:'HikariCP', version: '5.0.1'
 
     implementation group: 'org.mybatis', name: 'mybatis', version: '3.5.9'

@@ -5,10 +5,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
-        <property name="driverClassName" value="org.postgresql.Driver"></property>
-        <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/webdb"></property>
-        <property name="username" value="spring"></property>
-        <property name="password" value="spring_pwd"></property>
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:4408/webdb?serverTimezone=Asia/Seoul"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="spring"></property>
         <property name="dataSourceProperties">
             <props>
                 <prop key="cachePrepStmts">true</prop>

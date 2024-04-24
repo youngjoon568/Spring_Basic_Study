@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d4fa54a-6f20-43cd-b710-17ef74f1a519" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -203,6 +206,8 @@
       <workItem from="1713508676920" duration="326000" />
       <workItem from="1713509031614" duration="490000" />
       <workItem from="1713765413553" duration="246000" />
+      <workItem from="1713919667344" duration="3640000" />
+      <workItem from="1713925349830" duration="714000" />
     </task>
     <servers />
   </component>
