@@ -11,4 +11,13 @@
     </bean>
     
     <context:component-scan base-package="com.example.spring.controller" />
+
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <set>
+                <bean class="com.example.spring.controller.formatter.LocalDateFormatter" />
+                <bean class="com.example.spring.controller.formatter.CheckboxFormatter" />
+            </set>
+        </property>
+    </bean>
 </beans>

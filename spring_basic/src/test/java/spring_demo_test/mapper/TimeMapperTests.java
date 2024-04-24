@@ -1,6 +1,7 @@
 package spring_demo_test.mapper;
 
 import com.example.spring.mapper.TimeMapper;
+import com.example.spring.mapper.TimeMapper2;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -20,5 +21,12 @@ public class TimeMapperTests {
     @Test
     public void testGetTime() {
         log.info(timeMapper.getTime());
+    }
+    @Autowired(required = false)
+    private TimeMapper2 timeMapper2;
+
+    @Test
+    public void testGetNow() {
+        log.info(timeMapper2.getNow());
     }
 }
